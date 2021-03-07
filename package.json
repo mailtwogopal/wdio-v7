@@ -19,5 +19,8 @@
     "@wdio/sync": "^7.1.0",
     "chromedriver": "^89.0.0",
     "wdio-chromedriver-service": "^7.0.0"
+  },
+  "dependencies": {
+    "wdio-timeline-reporter": "^5.1.4"
   }
 }
