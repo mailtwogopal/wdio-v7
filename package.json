@@ -21,6 +21,7 @@
     "wdio-chromedriver-service": "^7.0.0"
   },
   "dependencies": {
+    "chai": "^4.3.4",
     "wdio-timeline-reporter": "^5.1.4"
   }
 }
