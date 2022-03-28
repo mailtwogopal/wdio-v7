@@ -7,8 +7,8 @@ var expect = require('chai').expect;
 
 describe('My Login application', () => {
     it('without login test case', () => {
-        browser.url('https://the-internet.herokuapp.com/');
-        NonSecure.checkBoxesLink.waitForClickable({ timeout: 3000 });
+        browser.url('https://yahoo.com/');
+        /* NonSecure.checkBoxesLink.waitForClickable({ timeout: 3000 });
         NonSecure.checkBoxesLink.waitForDisplayed({timeout : 3000, message: 'element not found after 3 seconds'});
         NonSecure.clickCheckBox();
         NonSecure.checkBoxHeading.waitForExist();
@@ -21,8 +21,8 @@ describe('My Login application', () => {
         var heading = NonSecure.checkBoxHeading.getText();
         console.log(`heading value is ${heading}`);
         assert.strictEqual(heading, 'Checkboxes');
-        //browser.saveScreenshot();
-    });
+         *///browser.saveScreenshot();
+    });/* 
     it('should login with valid credentials', () => {
         LoginPage.open();
 
@@ -84,7 +84,7 @@ describe('My Login application', () => {
         expect(NonSecure.buttonelem.isClickable()).to.not.be.true; //fail because true will be returned
         expect(val).to.equal('Page for automation practise');
         expect(NonSecure.pagelabel.getText()).to.include('automation');
-    })
+    }) */
 });
 
 
